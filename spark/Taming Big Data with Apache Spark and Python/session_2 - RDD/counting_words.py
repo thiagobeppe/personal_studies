@@ -1,5 +1,3 @@
-import collections
-
 from pyspark import SparkConf, SparkContext
 
 
