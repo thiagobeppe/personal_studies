@@ -5,7 +5,7 @@ from pyspark.sql.types import StringType, StructField, StructType, IntegerType
 path = '/home/tbeppe/Documents/studies/courses/spark/Taming Big Data with Apache Spark and Python/datasets/marvel-graph.txt'
 path_with_names = '/home/tbeppe/Documents/studies/courses/spark/Taming Big Data with Apache Spark and Python/datasets/marvel-names.txt'
 
-spark = SparkSession.builder.appName("MostPopularSuperHero").getOrCreate()
+spark = SparkSession.builder.appName("SuperHeroAssignment").getOrCreate()
 
 schema = StructType([ StructField("id",IntegerType(),True),StructField("name",StringType(),True)])
 
